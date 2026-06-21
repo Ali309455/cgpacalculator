@@ -251,12 +251,12 @@ export default function Home() {
               </Button>
             ) : (
               <>
-                <Button variant="ghost" asChild className="rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/40 text-sm h-9 hidden sm:inline-flex">
+                {/* <Button variant="ghost" asChild className="rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/40 text-sm h-9 hidden sm:inline-flex">
                   <Link href="/Login">Sign In</Link>
                 </Button>
                 <Button asChild className="rounded-lg bg-primary hover:bg-primary/95 text-white shadow-sm hover:scale-[1.02] active:scale-[0.98] transition-all text-sm h-9">
                   <Link href="/SignUp">Sign Up</Link>
-                </Button>
+                </Button> */}
               </>
             )}
           </div>
@@ -570,13 +570,13 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 
-                <Button 
+                {/* <Button 
                   asChild
                   variant="outline" 
                   className="btn-premium-secondary text-sm py-5 rounded-lg"
                 >
                   <Link href="/SignUp">Create Free Account</Link>
-                </Button>
+                </Button> */}
               </div>
             </div>
           </Card>
@@ -596,7 +596,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center gap-8 text-xs text-muted-foreground">
-            <Link href="/SignUp" className="hover:text-foreground transition-colors">Sign Up</Link>
+            {/* <Link href="/SignUp" className="hover:text-foreground transition-colors">Sign Up</Link> */}
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
           </div>
 
